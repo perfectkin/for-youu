@@ -1,0 +1,6 @@
+let messages = [ "im sorry for hurting you , I regret it deeply. I love you so much that I'll do anything just to see your cutie smile. You deserve the world Aya, and I will myself give that world to you. Let me make it clear for you, babe: I will never hurt you again, I promise. I'll be there for you and protect you from anything that may harm you. I'll be kind, more attentive, and patient for you, even more than I already am. I'll always be there for you and never leave your side, ill be more understanding, and I'll always be there to guide you and help you grow into the amazing person you are meant to be, and all you have to do is be my little princess who will trust me and be waiting for me to build myself and give her the world she deserves. So, can you be that for me babe?  can you forgive me and give me another chance to show u how much i adore you?,i love you aya" ];
+
+function nextMessage() {
+    let messageElement = document.getElementById("message");
+    messageElement.textContent = messages[0];
+}
